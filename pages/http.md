@@ -8,7 +8,10 @@
 			  #+BEGIN_EXAMPLE
 			  connection: keep-alive
 			  #+END_EXAMPLE
-			- close
+			- close 
+			  #+BEGIN_EXAMPLE
+			  connection: close
+			  #+END_EXAMPLE
 		- keep-alive
 		-
 		-
