@@ -4,4 +4,11 @@
 - header
 	- proxy
 		- connection
+			- keep-alive 
+			  #+BEGIN_EXAMPLE
+			  connection: keep-alive
+			  #+END_EXAMPLE
+			- close
+		- keep-alive
+		-
 		-
